@@ -393,7 +393,7 @@
                                         <a href="<?php echo 'hasilverifikasi' ?>">Hasil Verifikasi</a>
                                     </li>
                                     <li>
-                                        <a href="</?php echo 'hasilduediligence' ?>">Hasil Due Diligence</a>
+                                        <a href="<?php echo 'hasilduediligence' ?>">Hasil Due Diligence</a>
                                     </li>
                                     <!--<li>
                                         <a href="</?php echo 'hasilnegosiasi' ?>">Hasil Negosiasi</a>

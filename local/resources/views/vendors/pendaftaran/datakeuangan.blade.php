@@ -132,7 +132,7 @@ jQuery(document).ready(function($) {
 											<?php if(($data2->NoRekeningCk=='1') || ($data2->PersetujuanVerifikasi=='Y' && $dataHasil->Status==1)
 											|| ($dataHasil->PersetujuanVerifikasi=='N' && $dataHasil->StatusPakta=='Y')) { ?> readonly="true" 
 											<?php }else if ($data2->NoRekeningCk=='0') { ?> style="background-color:red; color:white;" <?php }?>
-										></input>
+										onkeypress="return isNumber(event)"></input>
 									</div>
 									</div>	
 								</td>

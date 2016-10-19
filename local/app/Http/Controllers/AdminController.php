@@ -4509,6 +4509,7 @@ class AdminController extends Controller
                             ->orderBy('Nilai','DESC')
                             ->pluck('Nilai');
               if($kemampuan != '' || $kemampuan != null){
+                  $kemampuan = str_ireplace(".","",$kemampuan); 
                   $kemampuan = 5 * $kemampuan;                  
               }else{
                   $kemampuan = 0;

@@ -157,6 +157,7 @@ jQuery(document).ready(function($) {
                                 <th width="50" style="text-align:center;">No.</th>
                                 <th style="text-align:center;">Lokasi Pasokan</th>
                                 <th style="text-align:center;">Volume</th>
+                                 <th style="text-align:center;">Nilai Kontrak</th>
                                 <th width="180" style="text-align:center;">Aksi</th>
                             </tr>
                     </thead>
@@ -170,6 +171,7 @@ jQuery(document).ready(function($) {
                                 <td><?php echo $counter ?></td>
                                 <td><?php echo $row->LokasiPasokan ?></td>
                                 <td><?php echo $row->Volume.' MT' ?></td>
+                                <td><?php echo 'Rp '.$row->Nilai ?></td>
                                 <td style="text-align:center;">
                                     <?php if($dataHasil->PersetujuanVerifikasi <> 'Y' ^ $dataHasil->Status<>1 || $dataHasil->StatusPakta <> 'Y') { ?>
                                     <a href="" onclick="document.getElementById('lokasi').value='<?php echo $row->LokasiPasokan ?>';

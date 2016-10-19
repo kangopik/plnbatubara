@@ -7,7 +7,7 @@
             <form action="{{action('AdminController@carivendorhasildue')}}" method="post">
                 <input type="hidden" name="_token" value="<?= csrf_token(); ?>">
                 <tr>
-                    <td width=100>Cari Calon Penyedia Batubara</td>
+                    <td width=100>Cari DCPT</td>
                     <td width=400>
                         <div data-tip="masukan kata pencarian">
                         <input type="text" class="form-control" name="cari" 
