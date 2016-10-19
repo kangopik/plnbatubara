@@ -1,0 +1,32 @@
+body {
+    font-family: Calibri;
+	line-height: 30px;
+}
+
+h1 {
+    color: #9B7188;
+    font-family: Calibri;
+	font-size: 34px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.main-content {
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+.offset3 {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+[class*="span"] {
+    float: left;
+    min-height: 1px;
+}
